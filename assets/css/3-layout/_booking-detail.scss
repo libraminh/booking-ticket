@@ -1,0 +1,52 @@
+.booking-detail-page {
+  .booking-wrap {
+    background: none;
+    min-height: auto !important;
+  }
+
+  .booking-wrap-form {
+    position: static;
+    transform: none;
+  }
+
+  .booking-detail-wrap {
+    margin-top: 30px;
+  }
+
+  .booking-wrap-form-content {
+    background: url('../img/booking-bg-1.png') no-repeat center;
+    background-size: cover;
+  }
+
+  .booking-detail-part3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .booking-wrap-form-content--flex {
+      align-items: center;
+
+      &:nth-child(2) {
+        margin-left: -100px;
+      }
+    }
+
+    .form-submit {
+      .btn-accent {
+        padding: 10px 30px !important;
+      }
+    }
+
+    form {
+      align-items: center;
+    }
+
+    .form-group {
+      margin-bottom: 0;
+    }
+
+    label {
+      margin-bottom: 0;
+    }
+  }
+}

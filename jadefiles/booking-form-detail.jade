@@ -1,0 +1,139 @@
+.booking-form-detail
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title.text-uppercase CHI TIẾT CHUYẾN BAY
+    |   
+    |
+    .panel-body
+      .booking-detail-form
+        .booking-detail-content-info
+          .detail.detail-1
+            img(src="assets/img/logo-vietjet.png", alt="")
+            p Vietjet Air 
+          |
+          |  
+          .detail.detail-2
+            p HỒ CHÍ MINH
+            p Sân bay Tân Sơn Nhất
+            p Sân bay Tân Sơn Nhất
+          |
+          |
+          .detail.detail-3
+            p
+              span Chuyến bay:
+              span VJ206
+            p
+              i.fa.fa-fighter-jet(aria-hidden='true')
+            p
+              span Thời gian bay:
+              span 1h 00 p
+          |
+          |
+          .detail.detail-4
+            p PHÚ YÊN
+            p Sân bay Tuy Hòa
+            p 07:15  4/10/17
+          |
+          |
+          .detail.detail-5
+            p
+              span Hạng:
+              span Phổ thông
+            p
+              span Máy bay:
+              span Airbus Sharklet A320
+|
+|
+.booking-form-detail.booking-form-list
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title.text-uppercase DANH SÁCH HÀNH KHÁCH
+    |   
+    |
+    .panel-body
+      .row
+        h5.text-uppercase 1. NGƯỜI LỚN
+        |
+        |
+        .col-md-2
+          label Giới tính:
+          select.selectpicker.form-control(data-live-search='true' title="Chọn")
+            option(data-tokens='ketchup mustard') Hot Dog, Fries and a Soda
+            |   
+            option(data-tokens='mustard') Burger, Shake and a Smile
+            |   
+            option(data-tokens='frosting') Sugar, Spice and all things nice
+        |
+        |
+        .col-md-3
+          label Họ:
+          input.form-control(type="text" placeholder="Nhập họ của bạn")
+        |
+        |
+        .col-md-4
+          label Tên đệm và tên lót:
+          input.form-control(type="text" placeholder="Nhập tên và tên đệm")
+        |
+        |
+        .col-md-3
+          label Tên đệm và tên lót:
+          input.form-control(type="text" placeholder="Ngày sinh" onfocus="this.type='date'")
+            
+      .row
+        h5.text-uppercase 2. DỊCH VỤ KÈM THÊM:
+        |
+        |
+        .col-md-5
+          label Hành lí ký gởi chuyến đi:
+          select.selectpicker.form-control(data-live-search='true' title="Chọn hành lý ký gởi")
+            option(data-tokens='ketchup mustard') Hot Dog, Fries and a Soda
+            |   
+            option(data-tokens='mustard') Burger, Shake and a Smile
+            |   
+            option(data-tokens='frosting') Sugar, Spice and all things nice
+|
+|            
+.booking-form-detail.booking-form-list.booking-form-info
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title.text-uppercase THÔNG TIN HÀNH KHÁCH
+    |
+    |   
+    .panel-body
+      .row
+        .col-md-4
+          label Quý danh:
+          input.form-control(type="text" placeholder="Ông")
+        |
+        |
+        .col-md-4
+          label Họ tên:
+          input.form-control(type="text" placeholder="Nhập họ và tên")
+        |
+        |
+        .col-md-4
+          label Số điện thoại:
+          input.form-control(type="text" placeholder="Nhập số điện thoại")
+      |
+      |      
+      .row
+        .col-md-6
+          label Email:
+          input.form-control(type="email" placeholder="Nhập email")
+        |
+        |
+        .col-md-6
+          label Địa chỉ:
+          input.form-control(type="email" placeholder="Nhập địa chỉ")
+      |
+      |
+      .row
+        .col-md-12
+          label Yêu cầu đặt biệt:
+          input.form-control(type="email" placeholder="Nhập yêu cầu đặt biệt kèm theo")
+        |
+        |    
+        .col-md-12
+          a.btn.btn-accent-1.text-uppercase.pull-right(href="#") 
+            | TIẾP TỤC
+            i.fa.fa-long-arrow-right(aria-hidden='true')

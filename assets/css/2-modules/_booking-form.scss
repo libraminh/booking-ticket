@@ -1,0 +1,283 @@
+.booking-detail-form {
+  margin-top: 30px;
+  background: $accent-color3;
+  padding: 15px;
+
+  &-info {
+    display: flex;
+
+    .sec-all {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .sec1 {
+      flex: 0.5;
+    }
+
+    .sec2, .sec3 {
+      color: $text-color;
+      font-weight: 500;
+      text-align: center;
+
+      p:last-child {
+        font-size: 20px;
+      }
+    }
+
+    .sec4 {
+      flex: 0.8;
+      color: $panel-bg;
+      font-size: 14px;
+      font-weight: 600;
+
+      i {
+        margin-right: 10px;
+      }
+    }
+
+    .sec5 {
+      color: $text-color;
+
+      .btn {
+        padding: 0;
+        margin-top: 3px;
+        text-align: left;
+
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .sec6 {
+      flex: 1.3;
+      font-size: 20px;
+      font-weight: 600;
+      color: $text-color1;
+    }
+
+    .sec7 {
+      flex: none;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+      label {
+        color: $text-color1 !important;
+        display: block;
+        font-weight: 500 !important;
+      }
+    }
+  }
+}
+
+.booking-detail-content {
+  background: $white-color;
+  margin-top: 10px;
+  border: 1px solid $panel-bg;
+  display: none;
+
+  &-info {
+    display: flex;
+    padding: 20px 0 20px 20px;
+    border-bottom: 1px solid $panel-bg;
+
+    .detail {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .detail-1 {
+      flex-grow: 0.5;
+      font-size: 12px;
+      font-weight: 500;
+      color: $text-color;
+
+      p {
+        margin-top: 5px;
+      }
+    }
+
+    .detail-2, .detail-4 {
+      font-weight: 600;
+      text-align: right;
+
+      p {
+        &:nth-child(1) {
+          font-size: 14px;
+          color: $text-color;
+        }
+
+        &:nth-child(2) {
+          font-size: 12px;
+          color: $panel-bg;
+          margin: 5px 0;
+        }
+
+        &:nth-child(3) {
+          font-size: 14px;
+          color: $text-color1;
+        }
+      }
+    }
+
+    .detail-3 {
+      text-align: center;
+      flex: 1.3;
+
+      p {
+        font-weight: 600;
+
+        &:nth-child(2) {
+          position: relative;
+          margin: 5px 0;
+
+          &:before {
+            display: block;
+            content: '';
+            width: 80%;
+            height: 1px;
+            background: $panel-bg;
+            transform: translateX(10px);
+          }
+
+          &:after {
+            display: block;
+            content: '';
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: $panel-bg;
+            transform: translate(10px,-3px);
+          }
+
+          i {
+            font-size: 20px;
+            color: $panel-bg;
+            position: absolute;
+            top: -10px;
+            right: 0;
+          }
+        }
+
+        span {
+          &:nth-child(1) {
+            color: $text-color;
+            margin-right: 5px;
+          }
+
+          &:nth-child(2) {
+            color: $panel-bg;
+          }
+        }
+      }
+    }
+
+    .detail-4 {
+      text-align: left;
+      margin-left: 10px;
+    }
+
+    .detail-5 {
+      flex: 1.2;
+      p {
+        font-weight: 600;
+
+        span {
+          &:nth-child(1) {
+            color: $text-color;
+            margin-right: 5px;
+          }
+
+          &:nth-child(2) {
+            color: $text-color2;
+          }
+        }
+      }
+    }
+  }
+
+  &-table {
+    padding: 20px;
+    border-bottom: 1px solid $panel-bg;
+
+    th, td {
+      border: none !important;
+      color: $text-color;
+      line-height: 24px !important;
+      padding: 5px 0px !important;
+    }
+
+    .thead2 {
+      display: block;
+      margin-top: 8px !important;
+    }
+  }
+
+  &-price {
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid $panel-bg;
+
+    .price-all {
+      color: $text-color;
+      font-weight: 500;
+      flex: 1;
+      font-size: 14px;
+
+      p:first-child {
+        margin-bottom: 5px;
+      }
+    }
+
+    .price-1 {
+      flex: 0.5;
+    }
+
+    .price-2 {
+      text-align: center;
+    }
+
+    .price-3, .price-4, .price-5 {
+      text-align: right;
+
+      p:last-child {
+        color: $text-color1;
+      }
+    }
+  }
+
+  &-total {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+    p {
+      font-size: 14px;
+      color: $text-color;
+      font-weight: 500;
+
+      span {
+        font-size: 24px;
+        color: $text-color1;
+        margin-left: 7px;
+      }
+    }
+  }
+}
+
+.booking-detail-more {
+  display: flex;
+  justify-content: flex-end;
+
+  .btn-accent-1 {
+    padding: 10px 100px;
+    margin-top: 15px;
+  }
+}

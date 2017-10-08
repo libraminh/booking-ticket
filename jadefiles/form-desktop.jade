@@ -1,0 +1,182 @@
+.booking-wrap-form.container.hidden-xs.hidden-sm.visible-md.visible-lg
+  .row
+    .col-md-12
+  
+      // Nav tabs
+      ul.nav.nav-tabs.booking-wrap-form-tab(role='tablist')
+        li.active(role='presentation')
+          a(href='#home', aria-controls='home', role='tab', data-toggle='tab')
+            i.fa.fa-plane(aria-hidden='true')
+            | TÌM CHUYẾN BAY
+        |         
+        li(role='presentation')
+          a(href='#profile', aria-controls='profile', role='tab', data-toggle='tab')
+            i.fa.fa-table(aria-hidden='true')
+            | TÌM VÉ RẺ THEO THÁNG
+        |         
+        li(role='presentation')
+          a(href='#messages', aria-controls='messages', role='tab', data-toggle='tab')
+            i.fa.fa-building-o(aria-hidden='true')
+            | KHÁCH SẠN
+        |         
+        li(role='presentation')
+          a(href='#settings', aria-controls='settings', role='tab', data-toggle='tab')
+            i.fa.fa-truck(aria-hidden='true')
+            | VÉ XE KHÁCH
+            
+        li(role='presentation')
+          a(href='#settings', aria-controls='settings', role='tab', data-toggle='tab') ...
+  
+      |
+      |    
+      // Tab panes
+      .tab-content.booking-wrap-form-content
+        #home.tab-pane.fade.in.active(role='tabpanel')
+          .row
+            .col-md-6
+              .booking-wrap-form-content--flex
+                p Bạn muốn tìm vé:
+                form
+                  .form-group
+                    input#test1(type='radio', name='radio-group')
+                    |                           
+                    label(for='test1') Khứ hồi
+                    
+                  .form-group
+                    input#test2(type='radio', name='radio-group')
+                    |                           
+                    label(for='test2') Một chiều
+            |
+            |      
+            .col-md-6
+              .booking-wrap-form-content--flex
+                p Loại chuyến bay:
+                form
+                  .form-group
+                    input#test3(type='radio', name='radio-group')
+                    |                           
+                    label(for='test3') Nội địa
+                    
+                  .form-group
+                    input#test4.check(type='radio', name='radio-group')
+                    |                           
+                    label(for='test4') Quốc tế
+                  
+          |
+          |
+          .row
+            .col-md-6
+              .row
+                .col-md-6
+                  .wrap-form-tab
+                    p Chọn điểm khởi hành:
+                    form
+                      .form-group
+                        label Tỉnh/ Thành phố 
+                        .wrap-form
+                          select.selectpicker.form-control
+                            option Mustard
+                            |   
+                            option Ketchup
+                            |   
+                            option Relish
+                          i.fa.fa-map-marker(aria-hidden='true')
+                |
+                |
+                .col-md-6
+                  .wrap-form-tab
+                    p Chọn điểm đến:
+                    form
+                      .form-group
+                        label Tỉnh/ Thành phố 
+                        .wrap-form
+                          select.selectpicker.form-control
+                            option Mustard
+                            |   
+                            option Ketchup
+                            |   
+                            option Relish
+                          i.fa.fa-map-marker(aria-hidden='true')
+            |
+            |      
+            .col-md-6.booking-date
+              .row
+                .col-md-6
+                  .row
+                    .col-md-6
+                      .wrap-form-tab
+                        p Ngày đi
+                        form
+                          .form-group
+                            label dd/mm/yy
+                            .wrap-form
+                              input.form-control.datepicker(type="date" value="02-16-2012")
+                    
+                    |
+                    |  
+                    .col-md-6
+                      .wrap-form-tab
+                        p Ngày về
+                        form
+                          .form-group
+                            label dd/mm/yy
+                            .wrap-form
+                              input.form-control.datepicker(type="date")
+                  
+                |
+                |  
+                .col-md-6.age-form  
+                  .row
+                    .col-md-4
+                      .wrap-form-tab
+                        form
+                          .form-group
+                            label#label-1 Người lớn
+                            select.selectpicker.form-control
+                              option 1
+                              |   
+                              option 2
+                              |   
+                              option 3
+                    |        
+                    |      
+                    .col-md-4
+                      .wrap-form-tab
+                        form
+                          .form-group
+                            label Trẻ em
+                            span 2-11 tuổi
+                            
+                            select.selectpicker.form-control
+                              option 1
+                              |   
+                              option 2
+                              |   
+                              option 3
+                    |
+                    |        
+                    .col-md-4
+                      .wrap-form-tab
+                        form
+                          .form-group
+                            label Em bé
+                            span <23 tháng
+                            
+                            select.selectpicker.form-control
+                              option 1
+                              |   
+                              option 2
+                              |   
+                              option 3
+                            
+          .row
+            .col-md-12.form-submit
+              a.btn.btn-accent.text-uppercase(href="#") 
+                | TÌM CHUYẾN BAY
+                i.fa.fa-long-arrow-right(aria-hidden='true')
+        |         
+        #profile.tab-pane.fade(role='tabpanel') ...
+        |         
+        #messages.tab-pane.fade(role='tabpanel') ...
+        |         
+        #settings.tab-pane.fade(role='tabpanel') ...

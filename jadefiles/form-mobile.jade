@@ -1,0 +1,193 @@
+.booking-wrap-form.visible-xs.visible-sm.hidden-md.hidden-lg
+  .row
+    .col-md-12.booking-wrap-form-tab
+      
+      #accordion.panel-group(role='tablist', aria-multiselectable='true')
+        .panel.panel-default
+          #headingOne.panel-heading(role='tab')
+            h4.panel-title
+              a(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                i.fa.fa-plane(aria-hidden='true')
+                | TÌM CHUYẾN BAY
+          |     
+          #collapseOne.panel-collapse.collapse.in(role='tabpanel', aria-labelledby='headingOne')
+            .booking-wrap-form-content
+              .tab-pane(role='tabpanel')
+                .row.p45
+                  .col-md-12
+                    .booking-wrap-form-content--flex
+                      p Bạn muốn tìm vé:
+                      form
+                        .form-group
+                          input#test5(type='radio', name='radio-group')
+                          |                           
+                          label(for='test5') Khứ hồi
+                          
+                        .form-group
+                          input#test6(type='radio', name='radio-group')
+                          |                           
+                          label(for='test6') Một chiều                      
+                        
+                |
+                |
+                .row.p45
+                  .col-md-6
+                    .row
+                      .col-md-6
+                        .wrap-form-tab
+                          p Chọn điểm khởi hành:
+                          form
+                            .form-group
+                              label Tỉnh/ Thành phố 
+                              .wrap-form
+                                select.selectpicker.form-control
+                                  option Mustard
+                                  |   
+                                  option Ketchup
+                                  |   
+                                  option Relish
+                                i.fa.fa-map-marker(aria-hidden='true')
+                      |
+                      |
+                      .col-md-6
+                        .wrap-form-tab
+                          p Chọn điểm đến:
+                          form
+                            .form-group
+                              label Tỉnh/ Thành phố 
+                              .wrap-form
+                                select.selectpicker.form-control
+                                  option Mustard
+                                  |   
+                                  option Ketchup
+                                  |   
+                                  option Relish
+                                i.fa.fa-map-marker(aria-hidden='true')
+                  |
+                  |      
+                  .col-md-6
+                    .row
+                      .col-md-6
+                        .row
+                          .col-xs-6.col-sm-6.col-md-6
+                            .wrap-form-tab
+                              p Ngày đi
+                              form
+                                .form-group
+                                  label dd/mm/yy
+                                  .wrap-form
+                                    input.form-control.datepicker(type="date")
+                                    i.fa.fa-calendar-plus-o(aria-hidden='true')
+                          
+                          |
+                          |  
+                          .col-xs-6.col-sm-6.col-md-6
+                            .wrap-form-tab
+                              p Ngày về
+                              form
+                                .form-group
+                                  label dd/mm/yy
+                                  .wrap-form
+                                    input.form-control.datepicker(type="date")
+                                    i.fa.fa-calendar-plus-o(aria-hidden='true')
+                        
+                      |
+                      |  
+                      .col-md-6.age-form  
+                        .row
+                          .col-xs-4.col-md-4
+                            .wrap-form-tab
+                              form
+                                .form-group
+                                  label#label-1 Người lớn
+                                  select.selectpicker.form-control
+                                    option 1
+                                    |   
+                                    option 2
+                                    |   
+                                    option 3
+                          |        
+                          |      
+                          .col-xs-4.col-md-4
+                            .wrap-form-tab
+                              form
+                                .form-group
+                                  label Trẻ em
+                                  span 2-11 tuổi
+                                  
+                                  select.selectpicker.form-control
+                                    option 1
+                                    |   
+                                    option 2
+                                    |   
+                                    option 3
+                          |
+                          |        
+                          .col-xs-4.col-md-4
+                            .wrap-form-tab
+                              form
+                                .form-group
+                                  label Em bé
+                                  span <23 tháng
+                                  
+                                  select.selectpicker.form-control
+                                    option 1
+                                    |   
+                                    option 2
+                                    |   
+                                    option 3
+                |
+                |      
+                .row.p45
+                  .col-md-12
+                    .booking-wrap-form-content--flex
+                      p Loại chuyến bay:
+                      form
+                        .form-group
+                          input#test7(type='radio', name='radio-group')
+                          |                           
+                          label(for='test7') Nội địa
+                          
+                        .form-group
+                          input#test8.check(type='radio', name='radio-group')
+                          |                           
+                          label(for='test8') Quốc tế            
+                |
+                |          
+                .form-submit
+                  a.btn.btn-accent.text-uppercase(href="#") 
+                    | TÌM CHUYẾN BAY
+                    i.fa.fa-long-arrow-right(aria-hidden='true')
+        |   
+        .panel.panel-default
+          #headingTwo.panel-heading(role='tab')
+            h4.panel-title
+              a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                i.fa.fa-table(aria-hidden='true')
+                | TÌM VÉ RẺ THEO THÁNG
+          |     
+          #collapseTwo.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingTwo')
+            .panel-body
+              | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+        |   
+        .panel.panel-default
+          #headingThree.panel-heading(role='tab')
+            h4.panel-title
+              a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                i.fa.fa-building-o(aria-hidden='true')
+                | KHÁCH SẠN
+          |     
+          #collapseThree.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingThree')
+            .panel-body
+              | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.
+          |   
+        .panel.panel-default
+          #headingFour.panel-heading(role='tab')
+            h4.panel-title
+              a.collapsed(role='button', data-toggle='collapse', data-parent='#accordion', href='#collapseFour', aria-expanded='false', aria-controls='collapseThree')
+                i.fa.fa-truck(aria-hidden='true')
+                | VÉ XE KHÁCH
+          |     
+          #collapseFour.panel-collapse.collapse(role='tabpanel', aria-labelledby='headingFour')
+            .panel-body
+              | Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven&apos;t heard of them accusamus labore sustainable VHS.

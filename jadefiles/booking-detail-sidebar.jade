@@ -1,0 +1,160 @@
+// form-filter
+.form-filter
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title 
+        i.fa.fa-filter(aria-hidden='true')
+        | LỌC CHUYẾN BAY
+    |   
+    .panel-body
+      .panel-global.panel-part-1
+        h4 Chọn hãng hàng không
+        |
+        |
+        form
+          .form-group.radio-style-1
+            input#all(type='radio', name='radio-group')
+            label(for='all') Chọn tất cả
+            |
+            |
+            .clearfix
+            input#price(type='radio', name='radio-group')
+            label(for='price'): img(src="assets/img/logo-vietjet.png", alt="")
+            strong.pull-right.text-color1 1,900,000 VND
+      |
+      |      
+      .panel-global.panel-part-2
+        h4 Số điểm dừng
+        |
+        |
+        form
+          .form-group.radio-style-1
+            input#fly(type='radio', name='radio-group')
+            label(for='fly') Chuyến bay thằng
+            |
+            |
+            .clearfix
+            input#point(type='radio', name='radio-group')
+            label(for='point') 1 điểm dừng
+      |
+      |
+      .panel-global.panel-part-3
+        h4 Giờ cất cánh
+        form
+          .form-group
+            strong 0
+            input#ex2.span2(type='text', value='', data-slider-min='0', data-slider-max='24', data-slider-step='4', data-slider-value='[250,450]')
+            strong 24
+      |
+      |      
+      .panel-global.panel-part-4
+        h4 Giờ cất cánh
+        form
+          .form-group
+            strong 0
+            input#ex3.span2(type='text', value='', data-slider-min='0', data-slider-max='24', data-slider-step='4', data-slider-value='[250,450]')
+            strong 0
+      |
+      |
+      .panel-global.panel-part-4
+        h4 Chế độ hiển thị
+        |
+        |
+        form
+          .form-group.radio-style-1
+            input#value(type='radio', name='radio-group')
+            label(for='value') Giá cơ bản cho 01 người lớn
+            |
+            |
+            .clearfix
+            input#tax(type='radio', name='radio-group')
+            label(for='tax') Giá hiển thị bao gồm thuế và phí
+|
+|          
+//form-cart
+.form-cart
+  .panel.panel-default
+    .panel-heading
+      h3.panel-title 
+        i.fa.fa-shopping-cart(aria-hidden='true')
+        | GIỎ HÀNG
+    |   
+    .panel-body
+      .form-cart-1
+        h4 Chuyến đi
+        .form-trip-1
+          .form-part.form-part-1
+            span SGN
+            span HỒ CHÍ MINH
+            
+          .form-part.form-part-2
+            i.fa.fa-fighter-jet(aria-hidden='true')
+              
+          .form-part.form-part-3
+            span TBB
+            span PHÚ YÊN
+        |
+        |  
+        .form-trip-2
+          .form-date
+            .form-date-wrap
+              p
+                i.fa.fa-clock-o(aria-hidden='true')
+                span 06:50
+                
+              p Thứ 7, Ngày 04/10/2017
+            |
+            |  
+            .form-date-wrap
+              p
+                i.fa.fa-clock-o(aria-hidden='true')
+                span 08:05
+                
+              p Thứ 7, Ngày 04/10/2017
+          |
+          |
+          .form-trip-3
+            p
+              img(src="assets/img/logo-vietjet.png", alt="")
+              span Vietjet Air
+              
+            p 
+              i.fa.fa-fighter-jet(aria-hidden='true')
+              span VJ206
+      |
+      |
+      .form-cart-2
+        h4 Tóm tắt giá vé
+        |
+        |
+        table.table
+          thead
+            tr
+              th Người lớn
+              |         
+              th Tổng
+          |     
+          tbody
+            tr
+              td 1x 
+                strong.text-color1 1,900,000 VNĐ
+                | / 1 vé
+              |         
+              td
+                strong.text-color1 1,900,000 VND
+      |
+      |        
+      .form-cart-3
+        .form-cart-3-wrap
+          span.total Total:
+          .span-wrap
+            span 1,900,000 VND
+            span Giá đã bao gồm thuế và phí
+            
+    a.btn.btn-accent-1(href="#") 
+      | TIẾP TỤC
+      i.fa.fa-long-arrow-right(aria-hidden='true')
+          
+                  
+              
+            
