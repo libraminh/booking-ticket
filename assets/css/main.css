@@ -8324,6 +8324,7 @@ a:hover {
 
 .carousel-1 .item, .carousel-1 .owl-item {
   width: 80px !important;
+  cursor: pointer;
 }
 
 .carousel-1 .wrap-item {
@@ -8348,6 +8349,9 @@ a:hover {
   color: #696969;
   font-weight: 500;
   padding: 10px 0;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 .carousel-1 .wrap-item:hover {
@@ -8360,6 +8364,14 @@ a:hover {
 
 .carousel-1 .wrap-item p:last-child {
   color: #f43e3e;
+}
+
+.choose-item {
+  background-color: #006bdc;
+}
+
+.choose-item p {
+  color: #ffffff !important;
 }
 
 .booking-detail-form {

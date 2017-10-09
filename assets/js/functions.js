@@ -3,6 +3,7 @@ $(function(){
   activeCarousel();
   openFormCart();
   openFormDetail();
+  chooseItemCarousel();
 
   $("#range_27, #range_22").ionRangeSlider({
     type: "double",
@@ -16,6 +17,13 @@ $(function(){
 $("#ex2, #ex3").slider({});
 
 // Function Area
+function chooseItemCarousel() {
+  $('.carousel-1 .item').on('click', function(){
+    $(this).addClass('choose-item');
+    $(this).parent().siblings().find('.item').removeClass('choose-item');
+  })
+}
+
 function openFormDetail() {
     // $('.sec5 .btn').on('click', function(){
     //   $('.booking-detail-content').slideDown();

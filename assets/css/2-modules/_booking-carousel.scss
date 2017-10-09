@@ -30,6 +30,7 @@
 
   .item, .owl-item {
     width: 80px !important;
+    cursor: pointer;
   }
 
   .wrap-item {
@@ -41,6 +42,7 @@
     color: $text-color;
     font-weight: 500;
     padding: 10px 0;
+    transition: all .2s ease-in-out;
 
     &:hover {
       background: $panel-bg;
@@ -53,5 +55,13 @@
     p:last-child {
       color: $text-color1;
     }
+  }
+}
+
+.choose-item {
+  background-color: $panel-bg;
+
+  p {
+    color: $white-color !important;
   }
 }
