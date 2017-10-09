@@ -16,6 +16,7 @@
 @import url(0-tools/lightbox/magnific-popup.css);
 @import url(0-tools/hover-direction/style.css);
 @import url(0-tools/range-slider/ion.rangeSlider.css);
+@import url(0-tools/range-slider/ion.rangeSlider.skinHTML5.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -9225,5 +9226,109 @@ a:hover {
   }
   .index-page .booking-wrap .form-submit .btn-accent:hover {
     background: #bd2525 !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .index-page .wrap-form i {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .booking-detail-part3 .booking-wrap-form-content--flex {
+    margin-left: 0 !important;
+  }
+  .carousel-1 {
+    width: 445px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .booking-detail-part3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start !important;
+    -webkit-align-items: flex-start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
+  .booking-detail-part3 .booking-wrap-form-content--flex {
+    margin: 5px 0;
+  }
+  .carousel-1 {
+    width: 540px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .booking-form-detail .booking-detail-content-info, .booking-detail-form .booking-detail-content-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .booking-form-detail .detail, .booking-detail-form .detail {
+    margin-bottom: 10px;
+  }
+  .booking-form-detail .detail:last-child, .booking-detail-form .detail:last-child {
+    margin-bottom: 0;
+  }
+  .booking-form-detail .detail-1 img, .booking-detail-form .detail-1 img {
+    width: 25%;
+  }
+  .booking-form-detail .detail-2, .booking-detail-form .detail-2 {
+    text-align: left;
+  }
+  .booking-form-detail .detail-4, .booking-detail-form .detail-4 {
+    margin-left: 0;
+  }
+  .booking-detail-content-price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .booking-detail-content-price .price-all {
+    text-align: left;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #006bdc;
+    padding-bottom: 10px;
+  }
+  .booking-detail-form-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .booking-detail-form-info .sec-all {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 10px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .booking-detail-form-info .sec-all:last-child {
+    margin-bottom: 0;
+  }
+  .content-col {
+    margin-bottom: 20px;
+  }
+  .carousel-1 {
+    width: 100% !important;
+  }
+  .prev-btn, .next-btn {
+    display: none;
   }
 }

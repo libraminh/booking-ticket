@@ -11,6 +11,7 @@
 @import "0-tools/lightbox/magnific-popup.css";
 @import "0-tools/hover-direction/style.css";
 @import "0-tools/range-slider/ion.rangeSlider.css";
+@import "0-tools/range-slider/ion.rangeSlider.skinHTML5.css";
 
 /* IMPORT BASE
    ----------------------------- */
@@ -35,3 +36,4 @@
 /* IMPORT RESPONSIVE
    ----------------------------- */
 @import "4-responsive/booking";
+@import "4-responsive/booking-detail";

@@ -1,0 +1,95 @@
+@media (max-width: $screen-md-max) {
+  .booking-detail-part3 {
+    .booking-wrap-form-content--flex {
+      margin-left: 0 !important;
+    }
+  }
+
+  .carousel-1 {
+    width: 445px !important;
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .booking-detail-part3 {
+    flex-direction: column;
+    align-items: flex-start !important;
+
+    .booking-wrap-form-content--flex  {
+      margin: 5px 0;
+    }
+  }
+
+  .carousel-1 {
+    width: 540px !important;
+  }
+}
+
+@media (max-width: $screen-xs-max) {
+  .booking-form-detail, .booking-detail-form {
+    .booking-detail-content-info {
+      flex-direction: column;
+    }
+
+    .detail {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .detail-1 {
+      img {
+        width: 25%;
+      }
+    }
+
+    .detail-2 {
+      text-align: left;
+    }
+
+    .detail-4 {
+      margin-left: 0;
+    }
+  }
+
+  .booking-detail-content-price {
+    flex-direction: column;
+
+
+    .price-all {
+      text-align: left;
+      margin-bottom: 10px;
+      border-bottom: 1px dotted $panel-bg;
+      padding-bottom: 10px;
+    }
+  }
+
+  .booking-detail-form-info {
+    flex-direction: column;
+
+    .sec-all {
+      justify-content: flex-start;
+      text-align: left;
+      margin-bottom: 10px;
+      align-items: flex-start;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .content-col {
+    margin-bottom: 20px;
+  }
+
+  .carousel-1 {
+    width: 100% !important;
+  }
+
+  .prev-btn, .next-btn {
+    display: none;
+  }
+}

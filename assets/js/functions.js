@@ -4,6 +4,13 @@ $(function(){
   openFormCart();
   openFormDetail();
 
+  $("#range_27, #range_22").ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 24,
+    grid: true
+});
+
 })
 
 $("#ex2, #ex3").slider({});
@@ -29,13 +36,13 @@ function openFormCart() {
 
 function activeDatePicker() {
   $('.datepicker').datepicker({
-    format: "yyyy-dd-mm"
+    format: "yyyy-mm-dd"
   });
 }
 
 function activeCarousel() {
   $('.carousel-1').owlCarousel({
-    items:6 ,
+    items:4 ,
     loop:false,
     center: false,
     margin: 0,
@@ -46,6 +53,19 @@ function activeCarousel() {
     URLhashListener:true,
     autoplayHoverPause:true,
     startPosition: 'URLHash',
+    slideBy: 4,
+    responsive:{
+      0:{
+          items:4,
+          nav: true
+      },
+      768:{
+          items:4,
+      },
+      1000:{
+          items:4,
+      },
+    }
   });
 
   var owl = $('.owl-carousel');

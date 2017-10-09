@@ -5,19 +5,20 @@ body.booking-detail-page
   |
   |
   .booking-wrap
-    include jadefiles/form-booking-detail.jade
+    include jadefiles/form-booking-detail-1.jade
     |
     |
     .container
       .row
         .booking-detail-wrap
-          .col-md-4
-            include jadefiles/booking-detail-sidebar.jade
-          |
-          |  
-          .col-md-8
+          .col-xs-12.col-md-8.col-md-push-4.content-col
             include jadefiles/booking-detail-carousel.jade
             include jadefiles/booking-detail-form.jade
+          |
+          |  
+          .col-xs-12.col-md-4.col-md-pull-8.sidebar-col
+            include jadefiles/booking-detail-sidebar.jade
+          
   |        
   |
   |      
