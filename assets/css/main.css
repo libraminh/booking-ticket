@@ -8301,7 +8301,7 @@ a:hover {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 90px !important;
+  width: 97px !important;
   border: 1px solid #006bdc;
   text-align: center;
   color: #696969;
@@ -8315,7 +8315,7 @@ a:hover {
 }
 
 .carousel-1 {
-  width: 570px !important;
+  width: 556px !important;
 }
 
 .carousel-1 .owl-stage-outer {
@@ -8323,7 +8323,7 @@ a:hover {
 }
 
 .carousel-1 .item, .carousel-1 .owl-item {
-  width: 90px !important;
+  width: 80px !important;
 }
 
 .carousel-1 .wrap-item {
@@ -8784,9 +8784,10 @@ a:hover {
 .booking-wrap-form-tab a {
   background: none !important;
   color: #696969;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   border: none !important;
+  letter-spacing: 0.5px;
 }
 
 .booking-wrap-form-tab a i {
@@ -9138,6 +9139,18 @@ a:hover {
   font-size: 12px;
   font-style: italic;
   color: #696969;
+}
+
+.booking-step2-page .booking-form-list .panel-body input::-webkit-clear-button {
+  display: none;
+}
+
+.booking-step2-page .booking-form-list .panel-body input::-webkit-inner-spin-button {
+  display: none;
+}
+
+.booking-step2-page .booking-form-list .panel-body input::-webkit-calendar-picker-indicator {
+  display: none;
 }
 
 .booking-step2-page .booking-form-list .panel-body .btn-default, .booking-step2-page .booking-form-list .panel-body .form-control {

@@ -78,6 +78,16 @@
         font-size: 12px;
         font-style: italic;
         color: $text-color;
+
+        &::-webkit-clear-button {
+          display: none;
+        }
+        &::-webkit-inner-spin-button {
+          display: none;
+        }
+        &::-webkit-calendar-picker-indicator {
+          display: none;
+        }
       }
 
       .btn-default, .form-control {

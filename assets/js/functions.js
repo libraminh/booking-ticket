@@ -42,7 +42,7 @@ function activeDatePicker() {
 
 function activeCarousel() {
   $('.carousel-1').owlCarousel({
-    items:4 ,
+    items: 7 ,
     loop:false,
     center: false,
     margin: 0,
@@ -53,17 +53,17 @@ function activeCarousel() {
     URLhashListener:true,
     autoplayHoverPause:true,
     startPosition: 'URLHash',
-    slideBy: 4,
+    slideBy: 7,
     responsive:{
       0:{
-          items:4,
+          items:6,
           nav: true
       },
       768:{
           items:4,
       },
       1000:{
-          items:4,
+          items:5,
       },
     }
   });

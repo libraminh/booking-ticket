@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90px !important;
+  width: 97px !important;
   border: 1px solid $panel-bg;
   text-align: center;
   color: $text-color;
@@ -22,14 +22,14 @@
 }
 
 .carousel-1 {
-  width: 570px !important;
+  width: 556px !important;
 
   .owl-stage-outer {
     border: 1px solid $panel-bg;
   }
 
   .item, .owl-item {
-    width: 90px !important;
+    width: 80px !important;
   }
 
   .wrap-item {
